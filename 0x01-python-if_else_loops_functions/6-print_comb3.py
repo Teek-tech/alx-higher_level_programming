@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-number = 0
-for number in range(1, 90):
-    if number % 10 == 0:
-        number += 1 + number // 10
-    print("{:02d}".format(number), end='\n' if number == 89 else ", ")
-    number += 1
+unique_num = 0
+while unique_num <= 89:
+    if unique_num % 10 == 0:
+        unique_num += 1 + unique_num // 10
+    print("{:02d}".format(unique_num), end='\n' if unique_num == 89 else ", ")
+    unique_num += 1
