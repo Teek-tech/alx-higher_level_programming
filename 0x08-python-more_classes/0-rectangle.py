@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 """
 This is a "Rectangle" module
 It provides a simple Rectangle class
